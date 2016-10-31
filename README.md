@@ -12,5 +12,5 @@ https://hub.docker.com/r/paulej/rfctools/
 
 and more information can be found at:
 
-https://github.com/paulej/rfctools
-https://github.com/miekg/mmark
+- https://github.com/paulej/rfctools
+- https://github.com/miekg/mmark
