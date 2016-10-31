@@ -146,7 +146,7 @@ physical meeting. Would they still exist for a virtual meeting?
 
 ## Remote Hubs
 
-In 2015 and 2016 there has been an effort to establish "remote hubs" 
+In recent years there has been an effort to establish "remote hubs" 
 where groups of IETF members get together and participate remotely from
 that physical location.  Would that continue as an option?
 
@@ -156,12 +156,16 @@ experience for people who can go to a hub than for those who cannot?)
 
 # User Journey / Experience
 
-## Participating in multiple sessions
+What is the experience of an "IETF attendee" in a virtual meeting?
+How does he or she experience the event? 
 
-It is currently possible for remote participants to join into multiple 
-working group sessions at the same time. Users simply connect using 
-multiple browser windows, multiple chat rooms or multiple computers. 
-How does this impact users' experience?
+How could attendees be most effective in getting work done in a virtual
+setting?
+
+## Registration / sign-up
+
+What is the registration experience like? How do they initially 
+"sign in" as an attendee?
 
 ## Side meetings
 
@@ -180,6 +184,13 @@ meetings. How can some version of this capacity be made available?
 
 How do you incorporate some concept of "unstructured" time where people 
 can meet and connect?
+
+## Participating in multiple sessions
+
+It is currently possible for remote participants to join into multiple 
+working group sessions at the same time. Users simply connect using 
+multiple browser windows, multiple chat rooms or multiple computers. 
+How does this impact users' experience?
 
 ## Serendipity - discovering other users
 
@@ -238,11 +249,15 @@ What is the infrastructure used to host a completely virtual meeting?
 Are current systems (ex. Meetecho, Jabber chat rooms, audio streams)
 sufficient? Would new infrastructure need to be established?
 
-What kind of bandwidth would need to be available?
+What kind of bandwidth would need to be available for the servers 
+hosting the system?
+
+How would we handle connecting large numbers of people at the same time?
 
 ## Capabilities
 
-Do virtual attendees have video connections? voice? chat?
+Do virtual attendees have video connections? voice? chat? What kind of
+bandwidth would need to be available on the client end?
 
 ## Authentication
 
@@ -287,6 +302,15 @@ the next virtual meeting?
 
 Would we charge the same amount to attendees as a regular meeting?
 
+Lou Berger sent the following suggestions to the list related to
+registration fees:
+
+1. Remote audio feed and jabber participation should continue to be unpaid and unregistered as now
+2. Access to session audio and video recordings should continue to be published as now, without fee or registration
+3. Remote video/audio -  registration should be per individual participant (i.e., anyone that speaks/presents) perhaps having hubs include some number of participants.
+4. Non-registered/anonymous video (meetecho) listeners should be
+allowed, but their mic/text input should be disabled.
+
 ### Sponsorships
 
 How do sponsorships work with a completely virtual meeting? Would 
@@ -295,6 +319,13 @@ sponsorships be required at the same level as the physical meetings?
 If a virtual meeting is sponsored, how is the sponsor given the visibility
 that is currently given with a physical meeting? For instance, with the
 signage, T-shirts, plenary slides, etc.
+
+### Long-term impact
+
+If we were successful in holding a completely virtual meeting, would 
+companies no longer be willing to send attendees to physical meetings?
+In other words, would the first one start us on a path toward having
+all meetings in this fashion? (And are we okay with that?)
 
 ## Legal
 
@@ -326,6 +357,12 @@ used is in fact who they say they are? In a physical meeting:
 
 How are these physical considerations replicated in a virtual meeting?
 
+## Privacy
+
+What level of privacy protection would be needed for conversations? for
+user information? Much of the IETF's work is all done on public email 
+lists and archived remote sessions. What level of privacy is needed?
+
 #  IANA Considerations
 
 Are there any IANA considerations associated with a virtual meeting?
@@ -336,6 +373,8 @@ With this initial document published, the intent now is to go back and
 start to fill in the sections with possible ideas about how the questions
 might be answered.
 
+## Learning from others
+
 Suggestions were made to investigate what lessons can be learned from 
 work by other organizations on virtual meetings. Initial suggestions 
 included:
@@ -345,6 +384,9 @@ included:
 - Universities and specifically Internet2 may have some experience.
 - George Michaelson stated: "Van Jacobsen did a lot of work on meeting behaviour online in the MBONE days, working on the whiteboard and vat. He has made observations about weighted-sum voting, speaking controls, inheritence of the state of the meeting."
 
+## Trial?
+
+How would it be possible to do a "trial run" of a virtual meeting?
 
 
 {backmatter}
@@ -355,9 +397,8 @@ This document reflects the input of many people who participated in both
 the manycouches design team as well as the discussion with the IESG
 on 20 July 2016 at IETF 96 in Berlin. Subsequent discussions on the
 manycouches mailing list also informed this document. The author would
-specifically like to thank: Benoit Claise and Greg Wood for their ideas 
-about how to structure this document; and George Michaelson for 
-additional thoughts and ideas.
+specifically like to thank Lou Berger, Benoit Claise, Stephen Farrell, 
+George Michaelson and Greg Wood for their input.
 
 # Development Note
 
