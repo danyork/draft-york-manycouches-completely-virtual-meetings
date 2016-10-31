@@ -11,6 +11,7 @@
 % initials="D."
 % surname="York"
 % fullname="Dan York"
+% organization="Internet Society"
 %  [author.address]
 %  email = "york@isoc.org"
 %   [author.address.postal]

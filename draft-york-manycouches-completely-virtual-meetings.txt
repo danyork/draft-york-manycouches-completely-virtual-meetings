@@ -3,8 +3,8 @@
 
 
 manycouches                                                      D. York
-Internet-Draft                                          October 31, 2016
-Intended status: Informational
+Internet-Draft                                          Internet Society
+Intended status: Informational                          October 31, 2016
 Expires: May 4, 2017
 
 
@@ -409,11 +409,11 @@ Appendix B.  Development Note
 Author's Address
 
    Dan York
+   Internet Society
    Keene, NH
    USA
 
    Email: york@isoc.org
-
 
 
 
