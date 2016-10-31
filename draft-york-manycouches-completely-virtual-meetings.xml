@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rfc SYSTEM 'rfc2629.dtd' []>
+<rfc ipr="trust200902" category="info" docName="draft-manycouches-completely-remote-meetings-00">
+<?rfc toc="yes"?>
+<?rfc symrefs="yes"?>
+<?rfc sortrefs="yes"?>
+<?rfc compact="yes"?>
+<?rfc subcompact="no"?>
+<?rfc private=""?>
+<?rfc topblock="yes"?>
+<?rfc comments="no"?>
+<front>
+<title abbrev="Thoughts on Completely Remote Meetings">Initial Thoughts on Completely Remote IETF Meetings</title>
+
+<author initials="D." surname="York" fullname="Dan York">
+<organization></organization>
+<address>
+<postal>
+<street></street>
+<city>Keene, NH</city>
+<code></code>
+<country>USA</country>
+<region></region>
+</postal>
+<phone></phone>
+<email>york@isoc.org</email>
+<uri></uri>
+</address>
+</author>
+<date year="2016" month="October" day="31"/>
+
+<area>Internet</area>
+<workgroup>Manycouches</workgroup>
+
+
+<abstract>
+<t>This document captures initial thoughts about having IETF meetings that
+are completely virtual. It explores the issues involved with both a
+&quot;planned&quot; virtual meeting and an &quot;emergency&quot; virtual meeting.
+</t>
+</abstract>
+
+
+</front>
+
+<middle>
+
+<section anchor="introduction" title="Introduction">
+<t>What would a &quot;completely virtual&quot; IETF meeting look like? What would be
+issues? What would be the advantages? How could it work?
+</t>
+<t>The &quot;manycouches&quot; design team was convened to explore these issues and
+understand what might be involved in holding a completely virtual meeting.
+On 20 July 2017, members met with the IESG for a joint discussion at the
+IETF 96 meeting in Berlin. This document outlines many of the key issues and questions for discussion that emerged out of that Berlin meeting as well as
+mailing list conversations.
+</t>
+<t>Discussions identified two types of potential meetings the IETF could have
+that would be completely virtual:
+</t>
+<t>
+<list style="numbers">
+<t>PLANNED VIRTUAL MEETING - A &quot;regular&quot; meeting of the IETF that would be planned to be completely virtual.</t>
+<t>EMERGENCY VIRTUAL MEETING - There could be a situation where a planned physical meeting suddenly needs to be virtual due to physical or political situations. For example, a natural disaster shortly before a meeting might cause people to not be able to attend.</t>
+</list>
+</t>
+<t>Tools and processes may be very similar between the two types of meetings.
+A key difference is that for an &quot;emergency&quot; meeting there may be the desire to
+replicate the planned schedule of the physical meeting as closely as possible.
+</t>
+<t>It is unclear if the IETF might ever choose to hold a planned virtual meeting,
+but this document is designed to facilitate the discussion around what that
+might look like.
+</t>
+
+<section anchor="benefits" title="Benefits">
+<t>Proponents of planned virtual meetings point to benefits such as:
+</t>
+<t>
+<list style="symbols">
+<t>No requirement to travel, removing an economic issue for many.</t>
+<t>All participants are on an equal footing (versus current situation where physical participants have more interaction capability than remote attendees).</t>
+<t>Ability to think differently about how the schedule of the meeting might look.</t>
+</list>
+</t>
+<t>The sections below outline many of the questions and ideas, some of which may
+be benefits.
+</t>
+</section>
+
+<section anchor="challenges" title="Challenges">
+<t>There are many challenges with hosting a completely virtual meeting. Some key
+issues are:
+</t>
+<t>
+<list style="symbols">
+<t>Inability to have the &quot;high bandwidth&quot; conversations enabled by face-to-face meetings.</t>
+<t>No ability to have &quot;hallway conversations&quot; and casual meetings with other participants.</t>
+</list>
+</t>
+<t>The remainder of the document outlines many of the challenges and associated
+questions.
+</t>
+<t>Several participants voiced the opinion that replacing a physical meeting would
+be pretty much impossible.
+</t>
+</section>
+
+<section anchor="conventions-and-terminology" title="Conventions and Terminology">
+<t>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;,
+&quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and &quot;OPTIONAL&quot; in this
+document are to be interpreted as described in RFC 2119 <xref target="RFC2119"/>.
+</t>
+<t>Additionally, the key words &quot;<spanx style="strong">MIGHT</spanx>&quot;, &quot;<spanx style="strong">COULD</spanx>&quot;, &quot;<spanx style="strong">MAY WISH TO</spanx>&quot;, &quot;<spanx style="strong">WOULD
+PROBABLY</spanx>&quot;, &quot;<spanx style="strong">SHOULD CONSIDER</spanx>&quot;, and &quot;<spanx style="strong">MUST (BUT WE KNOW YOU WON'T)</spanx>&quot; in
+this document are to interpreted as described in RFC 6919 <xref target="RFC6919"/>.
+</t>
+</section>
+</section>
+
+<section anchor="program" title="Program">
+
+<section anchor="meeting-structure" title="Meeting Structure">
+<t>With a completely virtual meeting, the structure of the meeting does not
+have to comply with the traditional IETF meeting schedule. It could, for
+instance, stretch out over the entire 24 hours of a day. Questions for
+discussion include:
+</t>
+<t>
+<list style="symbols">
+<t>Is the meeting still structured over a week?</t>
+<t>Do the meetings still exist within certain hours?</t>
+<t>Do multiple meetings exist at the same time as they do now?</t>
+</list>
+</t>
+<t>Again, in the case of an unplanned &quot;emergency&quot; virtual meeting the desire
+may be to stick with the already-planned schedule. But for a planned
+virtual meeting the schedule can be open for discussion.
+</t>
+<t>There was some discussion that a meeting could span more than the
+traditional week. However, the counterpoint is that keeping it within
+a week gives a focused block of time that people could allocate for
+participation in the virtual event.
+</t>
+</section>
+
+<section anchor="timezones" title="Timezones">
+<t>What timezone does a virtual meeting operate in? Or does it operate in
+multiple timezones?
+</t>
+<t>One suggestion was that each working group might choose its own timezone
+based on the best timezone for the main contributors and leaders. (Although
+this might then limit participation from other areas of the world.)
+</t>
+</section>
+
+<section anchor="deadlines" title="Deadlines">
+<t>What do deadlines look like for a completely virtual meeting? Are the
+deadlines for agendas and drafts kept as they are for a regular meeting?
+</t>
+</section>
+
+<section anchor="plenaries" title="Plenaries">
+<t>What does a plenary look like in a virtual meeting? The same large session
+as today?
+</t>
+</section>
+</section>
+
+<section anchor="user-journey--experience" title="User Journey / Experience">
+
+<section anchor="participating-in-multiple-sessions" title="Participating in multiple sessions">
+<t>It is currently possible for remote participants to join into multiple
+working group sessions at the same time. Users simply run Meetecho in
+multiple browser windows or multiple computers. How does this impact
+users' experience?
+</t>
+</section>
+
+<section anchor="side-meetings" title="Side meetings">
+<t>It is quite common for groups to decide during an IETF meeting to go
+off and have a side meeting.
+</t>
+<t>
+<list style="symbols">
+<t>How can this capability be reproduced in a virtual environment?</t>
+<t>Could the system allow people to create ad hoc meetings in some fashion?</t>
+</list>
+</t>
+</section>
+
+<section anchor="hallway-conversations" title="Hallway conversations">
+<t>The casual hallway conversations are a key component of IETF physical
+meetings. How can some version of this capacity be made available?
+</t>
+</section>
+
+<section anchor="unstructured-time" title="Unstructured time">
+<t>How do you incorporate some concept of &quot;unstructured&quot; time where people
+can meet and connect?
+</t>
+</section>
+
+<section anchor="serendipity--discovering-other-users" title="Serendipity - discovering other users">
+<t>Part of a physical meeting involves discovering other people with common
+interests or backgrounds. How do you help people find others?
+</t>
+</section>
+
+<section anchor="microphone-lines" title="Microphone lines">
+<t>How do &quot;mic lines&quot; work in a completely virtual meeting? Would this in fact
+be a benefit as all attendees would be in the same queue?
+</t>
+</section>
+
+<section anchor="mentoring" title="Mentoring">
+<t>How would the &quot;mentor&quot; program work in a virtual meeting? The same as with
+a physical meeting?
+</t>
+</section>
+
+<section anchor="inclusivity" title="Inclusivity">
+<t>How do you bring new people into sessions? How do people learn about side meetings?
+About hallway conversations?
+</t>
+</section>
+</section>
+
+<section anchor="technical-considerations" title="Technical Considerations">
+<t>Many technical questions need to be discussed.
+</t>
+
+<section anchor="infrastructure" title="Infrastructure">
+<t>What is the infrastructure used to host a completely virtual meeting?
+Are current systems such as Meetecho sufficient? Would new infrastructure
+need to be established?
+</t>
+<t>What kind of bandwidth would need to be available?
+</t>
+</section>
+
+<section anchor="capabilities" title="Capabilities">
+<t>Do virtual attendees have video connections? voice? chat?
+</t>
+</section>
+
+<section anchor="network-operation-center-noc" title="Network Operation Center (NOC)">
+<t>Where does the NOC &quot;exist&quot; for a completly virtual meeting? What is its role?
+</t>
+</section>
+</section>
+
+<section anchor="administrative" title="Administrative">
+
+<section anchor="centralized-resources" title="Centralized Resources">
+<t>What is the impact of a virtual meeting on centralized resources such as
+support staff? What is the full role of the Secretariat during the meeting?
+</t>
+</section>
+
+<section anchor="finances" title="Finances">
+<t>
+<list style="symbols">
+<t>What would the impact be on IETF finances?</t>
+<t>Would we charge the same amount to attendees as a regular meeting?</t>
+</list>
+</t>
+</section>
+</section>
+
+<section anchor="security-considerations" title="Security Considerations">
+<t>There are many considerations related to security and privacy that need
+to be factored in to a virtual meeting.
+</t>
+
+<section anchor="availability" title="Availability">
+<t>How do we ensure that an attack such as a distributed denial of service (DDoS) doesn't take out the entire virtual meeting? What about an attack against a
+particular region?
+</t>
+</section>
+
+<section anchor="integrity" title="Integrity">
+<t>How do you know that the person who is logged into whatver system is
+used is in fact who they say they are? In a physical meeting:
+</t>
+<t>
+<list style="symbols">
+<t>We can see the person and physically identify them.</t>
+<t>Users wear name badges that were issued at registration time.</t>
+<t>There are typically other people who may know many individuals.</t>
+</list>
+</t>
+<t>How are these physical considerations replicated in a virtual meeting?
+</t>
+</section>
+</section>
+
+<section anchor="iana-considerations" title="IANA Considerations">
+<t>There are no IANA considerations associated with this document.
+</t>
+</section>
+
+</middle>
+<back>
+<references title="Normative References">
+<?rfc include="http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml"?>
+<?rfc include="http://xml2rfc.ietf.org/public/rfc/bibxml/reference.RFC.6919.xml"?>
+</references>
+
+<section anchor="acknowledgements" title="Acknowledgements">
+<t>The author thanks all of the participants of the manycouches design
+team as well as the IESG members who participated in the discussion
+on 20 July 2016 at IETF 96 in Berlin.
+</t>
+</section>
+
+</back>
+</rfc>
