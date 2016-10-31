@@ -1,9 +1,9 @@
 % Title = "Initial Thoughts on Completely Remote IETF Meetings"
-% abbrev = "Thoughts on Completely Remote Meetings"
+% abbrev = "Thoughts on Completely Virtual Meetings"
 % category = "info"
-% docName = "draft-manycouches-completely-remote-meetings-00"
+% docName = "draft-manycouches-completely-virtual-meetings-00"
 % ipr= "trust200902"
-% workgroup = "Manycouches"
+% workgroup = "manycouches"
 %
 % date = 2016-10-31T00:00:00Z
 %

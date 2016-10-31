@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rfc SYSTEM 'rfc2629.dtd' []>
-<rfc ipr="trust200902" category="info" docName="draft-manycouches-completely-remote-meetings-00">
+<rfc ipr="trust200902" category="info" docName="draft-manycouches-completely-virtual-meetings-00">
 <?rfc toc="yes"?>
 <?rfc symrefs="yes"?>
 <?rfc sortrefs="yes"?>
@@ -10,7 +10,7 @@
 <?rfc topblock="yes"?>
 <?rfc comments="no"?>
 <front>
-<title abbrev="Thoughts on Completely Remote Meetings">Initial Thoughts on Completely Remote IETF Meetings</title>
+<title abbrev="Thoughts on Completely Virtual Meetings">Initial Thoughts on Completely Remote IETF Meetings</title>
 
 <author initials="D." surname="York" fullname="Dan York">
 <organization></organization>
@@ -30,7 +30,7 @@
 <date year="2016" month="October" day="31"/>
 
 <area>Internet</area>
-<workgroup>Manycouches</workgroup>
+<workgroup>manycouches</workgroup>
 
 
 <abstract>
