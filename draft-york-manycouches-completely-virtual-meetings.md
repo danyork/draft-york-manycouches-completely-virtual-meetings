@@ -1,4 +1,4 @@
-% Title = "Initial Thoughts on Completely Remote IETF Meetings"
+% Title = "Initial Thoughts on Completely Virtual IETF Meetings"
 % abbrev = "Thoughts on Completely Virtual Meetings"
 % category = "info"
 % docName = "draft-manycouches-completely-virtual-meetings-00"
