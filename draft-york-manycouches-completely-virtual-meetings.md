@@ -241,3 +241,9 @@ There are no IANA considerations associated with this document.
 The author thanks all of the participants of the manycouches design
 team as well as the IESG members who participated in the discussion
 on 20 July 2016 at IETF 96 in Berlin.
+
+# Development Note
+
+This document is being developed using a repository on Github at:
+https://github.com/danyork/draft-york-manycouches-completely-virtual-meetings
+Comments, issues and pull requests are welcome.

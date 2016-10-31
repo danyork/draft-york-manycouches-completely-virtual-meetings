@@ -91,6 +91,7 @@ Table of Contents
    7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   7
    8.  Normative References  . . . . . . . . . . . . . . . . . . . .   7
    Appendix A.  Acknowledgements . . . . . . . . . . . . . . . . . .   8
+   Appendix B.  Development Note . . . . . . . . . . . . . . . . . .   8
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   8
 
 1.  Introduction
@@ -104,7 +105,6 @@ Table of Contents
    discussion at the IETF 96 meeting in Berlin.  This document outlines
    many of the key issues and questions for discussion that emerged out
    of that Berlin meeting as well as mailing list conversations.
-
 
 
 
@@ -400,6 +400,12 @@ Appendix A.  Acknowledgements
    team as well as the IESG members who participated in the discussion
    on 20 July 2016 at IETF 96 in Berlin.
 
+Appendix B.  Development Note
+
+   This document is being developed using a repository on Github at:
+   <https://github.com/danyork/draft-york-manycouches-completely-
+   virtual-meetings> Comments, issues and pull requests are welcome.
+
 Author's Address
 
    Dan York
@@ -407,12 +413,6 @@ Author's Address
    USA
 
    Email: york@isoc.org
-
-
-
-
-
-
 
 
 

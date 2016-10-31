@@ -314,5 +314,12 @@ on 20 July 2016 at IETF 96 in Berlin.
 </t>
 </section>
 
+<section anchor="development-note" title="Development Note">
+<t>This document is being developed using a repository on Github at:
+<eref target="https://github.com/danyork/draft-york-manycouches-completely-virtual-meetings"/>
+Comments, issues and pull requests are welcome.
+</t>
+</section>
+
 </back>
 </rfc>
