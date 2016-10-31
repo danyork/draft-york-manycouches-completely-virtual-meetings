@@ -1,11 +1,11 @@
-% Title = "Initial Thoughts on Completely Virtual IETF Meetings"
+% Title = "Thoughts on Completely Virtual IETF Meetings"
 % abbrev = "Thoughts on Completely Virtual Meetings"
 % category = "info"
-% docName = "draft-manycouches-completely-virtual-meetings-00"
+% docName = "draft-manycouches-completely-virtual-meetings-01"
 % ipr= "trust200902"
 % workgroup = "manycouches"
 %
-% date = 2016-10-31T00:00:00Z
+% date = 2016-10-31T12:20:00Z
 %
 % [[author]]
 % initials="D."
@@ -22,7 +22,9 @@
 
 This document captures initial thoughts about having IETF meetings that
 are completely virtual. It explores the issues involved with both a
-"planned" virtual meeting and an "emergency" virtual meeting. 
+"planned" virtual meeting and an "emergency" virtual meeting. The intent
+is to evolve this document to provide answers to the questions posed
+throughout the text.
 
 {mainmatter}
 
@@ -44,12 +46,15 @@ that would be completely virtual:
 2. EMERGENCY VIRTUAL MEETING - There could be a situation where a planned physical meeting suddenly needs to be virtual due to physical or political situations. For example, a natural disaster shortly before a meeting might cause people to not be able to attend.
 
 Tools and processes may be very similar between the two types of meetings.
-A key difference is that for an "emergency" meeting there may be the desire to 
-replicate the planned schedule of the physical meeting as closely as possible.
+A key difference is that for an "emergency" meeting there may be the desire 
+to replicate the planned schedule of the physical meeting as closely as possible.
 
-It is unclear if the IETF might ever choose to hold a planned virtual meeting, 
-but this document is designed to facilitate the discussion around what that
-might look like.
+It is unclear if the IETF might ever choose to hold a planned virtual meeting, but this document is designed to facilitate the discussion around 
+what that might look like. A desire is that some of this development may 
+help with improving the current experience for remote attendees to today's
+physical IETF meetings. It may also be the case that some kind of "hybrid"
+meeting emerges with physical meetings taking place in multiple locations
+with virtual participants joining in remotely.
 
 ## Benefits
 
@@ -58,14 +63,15 @@ Proponents of planned virtual meetings point to benefits such as:
 - No requirement to travel, removing an economic issue for many.
 - All participants are on an equal footing (versus current situation where physical participants have more interaction capability than remote attendees).
 - Ability to think differently about how the schedule of the meeting might look.
+- Potentially making participation accessible to more people by changes in the registration fees. (See Finance discussion below.)
 
-The sections below outline many of the questions and ideas, some of which may
-be benefits.
+The sections below outline many of the questions and ideas, some of which
+may be benefits.
 
 ## Challenges
 
-There are many challenges with hosting a completely virtual meeting. Some key
-issues are:
+There are many challenges with hosting a completely virtual meeting. 
+Some key issues are:
 
 - Inability to have the "high bandwidth" conversations enabled by face-to-face meetings.
 - No ability to have "hallway conversations" and casual meetings with other participants.
@@ -73,8 +79,8 @@ issues are:
 The remainder of the document outlines many of the challenges and associated
 questions.
 
-Several participants voiced the opinion that replacing a physical meeting would
-be pretty much impossible.
+Several participants voiced the opinion that replacing a physical meeting 
+would be pretty much impossible.
 
 
 ##  Conventions and Terminology
@@ -128,15 +134,34 @@ deadlines for agendas and drafts kept as they are for a regular meeting?
 What does a plenary look like in a virtual meeting? The same large session
 as today?
 
+## Tutorials
+
+On the Sunday starting an IETF week we commonly have a series of tutorials.
+Are those still part of the program for a virtual meeting?
+
+## Hackathon / Code Sprint
+
+The Hackathon and Code Sprint have become popular activities before a 
+physical meeting. Would they still exist for a virtual meeting?
+
+## Remote Hubs
+
+In 2015 and 2016 there has been an effort to establish "remote hubs" 
+where groups of IETF members get together and participate remotely from
+that physical location.  Would that continue as an option?
+
+Could the virtual meeting perhaps involve connecting together a series
+of remote hubs? (And if so, does this then again create a better
+experience for people who can go to a hub than for those who cannot?)
 
 # User Journey / Experience
 
 ## Participating in multiple sessions
 
 It is currently possible for remote participants to join into multiple 
-working group sessions at the same time. Users simply run Meetecho in 
-multiple browser windows or multiple computers. How does this impact
-users' experience?
+working group sessions at the same time. Users simply connect using 
+multiple browser windows, multiple chat rooms or multiple computers. 
+How does this impact users' experience?
 
 ## Side meetings
 
@@ -161,10 +186,31 @@ can meet and connect?
 Part of a physical meeting involves discovering other people with common
 interests or backgrounds. How do you help people find others?
 
+## Voting / Hums
+
+What is the best way to have votes or hums in a virtual meeting? Most current audio conference systems would not make an actual audio hum
+possible.  Votes in a chat could be possible but the lag time associated
+with remote connections would need to be taken into account.  
+
+Some kind of system where votes take place over a period of time may need
+to be developed or used.  This, though, does then introduce a delay into
+the meeting while there is a wait for the vote.
+
 ## Microphone lines
 
 How do "mic lines" work in a completely virtual meeting? Would this in fact
 be a benefit as all attendees would be in the same queue?
+
+## Disruptive Behavior
+
+How do we deal with disruptive behavior in a virtual meeting? It can and 
+does happen in meetings - and could potentially happen more easily in a
+virtual evironment where people cannot be physically stopped from going to 
+a mic or could be removed from a room.
+
+What is the process to exclude someone who is being disruptive? Do we need
+moderators to be able to step in and mute or disable someone's connection?
+Who makes the decision that someone's behavior is disruptive?
 
 ## Mentoring
 
@@ -173,8 +219,14 @@ a physical meeting?
 
 ## Inclusivity
 
-How do you bring new people into sessions? How do people learn about side meetings?
-About hallway conversations?
+How do you bring new people into sessions? How do people learn about side meetings? About hallway conversations?
+
+## T-Shirts
+
+Many attendees value the t-shirts that are provided for each IETF. How is
+it possible to provide a t-shirt to attendees of a virtual meeting? Does
+this just get skipped for the meeting? Do they get mailed out (incurring
+another expense)?
 
 #  Technical Considerations
 
@@ -183,14 +235,31 @@ Many technical questions need to be discussed.
 ## Infrastructure
 
 What is the infrastructure used to host a completely virtual meeting?
-Are current systems such as Meetecho sufficient? Would new infrastructure
-need to be established?
+Are current systems (ex. Meetecho, Jabber chat rooms, audio streams)
+sufficient? Would new infrastructure need to be established?
 
 What kind of bandwidth would need to be available?
 
 ## Capabilities
 
 Do virtual attendees have video connections? voice? chat?
+
+## Authentication
+
+Today anyone can connect to the remote participation aspects of an IETF
+meeting. No authentication is required to join a jabber chat room, listen
+to an audio stream or connect to a Meetecho session. Would that need to
+change? Would "registration" give you a login to whatever system was
+used for the meeting?  Would you not be able to participate without those
+login credentials?
+
+## Audio
+
+How do we address issues of lag, stutter, echo and other artifacts of 
+current audio conferencing systems? 
+
+Is there a "minimum voice quality" level that is acceptable? (George 
+Michaelson has suggested the telco QDU concept is something to consider.)
 
 ## Network Operation Center (NOC)
 
@@ -205,8 +274,32 @@ support staff? What is the full role of the Secretariat during the meeting?
 
 ## Finances
 
-- What would the impact be on IETF finances?
-- Would we charge the same amount to attendees as a regular meeting?
+The financial model of a completely virtual meeting needs to be understood.
+What would be the financial costs associated with a meeting?
+
+### Initial Investment
+
+Would there need to be an initial investment in infrastructure for the
+first completely virtual meeting? Would there then be lower costs for 
+the next virtual meeting?
+
+### Registration Fees
+
+Would we charge the same amount to attendees as a regular meeting?
+
+### Sponsorships
+
+How do sponsorships work with a completely virtual meeting? Would 
+sponsorships be required at the same level as the physical meetings?
+
+If a virtual meeting is sponsored, how is the sponsor given the visibility
+that is currently given with a physical meeting? For instance, with the
+signage, T-shirts, plenary slides, etc.
+
+## Legal
+
+How do we ensure all attendees, coming in at all times, see and agree to
+the Note Well statement?
 
 
 #  Security Considerations
@@ -216,8 +309,11 @@ to be factored in to a virtual meeting.
 
 ## Availability
 
-How do we ensure that an attack such as a distributed denial of service (DDoS) doesn't take out the entire virtual meeting? What about an attack against a
-particular region?
+How do we ensure that an attack such as a distributed denial of service (DDoS) doesn't take out the entire virtual meeting? What about an attack against a particular region?
+
+Similarly, how do we protect against disruption caused by groups on
+the Internet who may simply want to disrupt the meeting for the fun of it?
+(See the section on "Authentication" earlier.)
 
 ## Integrity
 
@@ -230,18 +326,38 @@ used is in fact who they say they are? In a physical meeting:
 
 How are these physical considerations replicated in a virtual meeting?
 
-
 #  IANA Considerations
 
-There are no IANA considerations associated with this document.
+Are there any IANA considerations associated with a virtual meeting?
+
+# Next Steps
+
+With this initial document published, the intent now is to go back and
+start to fill in the sections with possible ideas about how the questions
+might be answered.
+
+Suggestions were made to investigate what lessons can be learned from 
+work by other organizations on virtual meetings. Initial suggestions 
+included:
+
+- The Internet Society has now hosted two (2015 and 2016) global "InterCommunity" events bringing together ISOC members from around the world. The 2016 event, in particular, was designed to be a virtual event.
+- The conference industry has been exploring virtual and/or "hybrid" meetings. There may be value here.
+- Universities and specifically Internet2 may have some experience.
+- George Michaelson stated: "Van Jacobsen did a lot of work on meeting behaviour online in the MBONE days, working on the whiteboard and vat. He has made observations about weighted-sum voting, speaking controls, inheritence of the state of the meeting."
+
+
 
 {backmatter}
 
 # Acknowledgements
 
-The author thanks all of the participants of the manycouches design
-team as well as the IESG members who participated in the discussion
-on 20 July 2016 at IETF 96 in Berlin.
+This document reflects the input of many people who participated in both
+the manycouches design team as well as the discussion with the IESG
+on 20 July 2016 at IETF 96 in Berlin. Subsequent discussions on the
+manycouches mailing list also informed this document. The author would
+specifically like to thank: Benoit Claise and Greg Wood for their ideas 
+about how to structure this document; and George Michaelson for 
+additional thoughts and ideas.
 
 # Development Note
 

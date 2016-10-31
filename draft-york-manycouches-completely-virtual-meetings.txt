@@ -8,14 +8,16 @@ Intended status: Informational                          October 31, 2016
 Expires: May 4, 2017
 
 
-          Initial Thoughts on Completely Virtual IETF Meetings
-            draft-manycouches-completely-virtual-meetings-00
+              Thoughts on Completely Virtual IETF Meetings
+            draft-manycouches-completely-virtual-meetings-01
 
 Abstract
 
    This document captures initial thoughts about having IETF meetings
    that are completely virtual.  It explores the issues involved with
    both a "planned" virtual meeting and an "emergency" virtual meeting.
+   The intent is to evolve this document to provide answers to the
+   questions posed throughout the text.
 
 Status of This Memo
 
@@ -51,8 +53,6 @@ Copyright Notice
 
 
 
-
-
 York                       Expires May 4, 2017                  [Page 1]
 
 Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
@@ -60,39 +60,59 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 Table of Contents
 
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
      1.1.  Benefits  . . . . . . . . . . . . . . . . . . . . . . . .   3
-     1.2.  Challenges  . . . . . . . . . . . . . . . . . . . . . . .   3
+     1.2.  Challenges  . . . . . . . . . . . . . . . . . . . . . . .   4
      1.3.  Conventions and Terminology . . . . . . . . . . . . . . .   4
    2.  Program . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
      2.1.  Meeting Structure . . . . . . . . . . . . . . . . . . . .   4
-     2.2.  Timezones . . . . . . . . . . . . . . . . . . . . . . . .   4
+     2.2.  Timezones . . . . . . . . . . . . . . . . . . . . . . . .   5
      2.3.  Deadlines . . . . . . . . . . . . . . . . . . . . . . . .   5
      2.4.  Plenaries . . . . . . . . . . . . . . . . . . . . . . . .   5
-   3.  User Journey / Experience . . . . . . . . . . . . . . . . . .   5
-     3.1.  Participating in multiple sessions  . . . . . . . . . . .   5
-     3.2.  Side meetings . . . . . . . . . . . . . . . . . . . . . .   5
-     3.3.  Hallway conversations . . . . . . . . . . . . . . . . . .   5
-     3.4.  Unstructured time . . . . . . . . . . . . . . . . . . . .   5
-     3.5.  Serendipity - discovering other users . . . . . . . . . .   5
-     3.6.  Microphone lines  . . . . . . . . . . . . . . . . . . . .   6
-     3.7.  Mentoring . . . . . . . . . . . . . . . . . . . . . . . .   6
-     3.8.  Inclusivity . . . . . . . . . . . . . . . . . . . . . . .   6
-   4.  Technical Considerations  . . . . . . . . . . . . . . . . . .   6
-     4.1.  Infrastructure  . . . . . . . . . . . . . . . . . . . . .   6
-     4.2.  Capabilities  . . . . . . . . . . . . . . . . . . . . . .   6
-     4.3.  Network Operation Center (NOC)  . . . . . . . . . . . . .   6
-   5.  Administrative  . . . . . . . . . . . . . . . . . . . . . . .   6
-     5.1.  Centralized Resources . . . . . . . . . . . . . . . . . .   6
-     5.2.  Finances  . . . . . . . . . . . . . . . . . . . . . . . .   7
-   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   7
-     6.1.  Availability  . . . . . . . . . . . . . . . . . . . . . .   7
-     6.2.  Integrity . . . . . . . . . . . . . . . . . . . . . . . .   7
-   7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   7
-   8.  Normative References  . . . . . . . . . . . . . . . . . . . .   7
-   Appendix A.  Acknowledgements . . . . . . . . . . . . . . . . . .   8
-   Appendix B.  Development Note . . . . . . . . . . . . . . . . . .   8
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   8
+     2.5.  Tutorials . . . . . . . . . . . . . . . . . . . . . . . .   5
+     2.6.  Hackathon / Code Sprint . . . . . . . . . . . . . . . . .   5
+     2.7.  Remote Hubs . . . . . . . . . . . . . . . . . . . . . . .   6
+   3.  User Journey / Experience . . . . . . . . . . . . . . . . . .   6
+     3.1.  Participating in multiple sessions  . . . . . . . . . . .   6
+     3.2.  Side meetings . . . . . . . . . . . . . . . . . . . . . .   6
+     3.3.  Hallway conversations . . . . . . . . . . . . . . . . . .   6
+     3.4.  Unstructured time . . . . . . . . . . . . . . . . . . . .   6
+     3.5.  Serendipity - discovering other users . . . . . . . . . .   6
+     3.6.  Voting / Hums . . . . . . . . . . . . . . . . . . . . . .   7
+     3.7.  Microphone lines  . . . . . . . . . . . . . . . . . . . .   7
+     3.8.  Disruptive Behavior . . . . . . . . . . . . . . . . . . .   7
+     3.9.  Mentoring . . . . . . . . . . . . . . . . . . . . . . . .   7
+     3.10. Inclusivity . . . . . . . . . . . . . . . . . . . . . . .   7
+     3.11. T-Shirts  . . . . . . . . . . . . . . . . . . . . . . . .   7
+   4.  Technical Considerations  . . . . . . . . . . . . . . . . . .   8
+     4.1.  Infrastructure  . . . . . . . . . . . . . . . . . . . . .   8
+     4.2.  Capabilities  . . . . . . . . . . . . . . . . . . . . . .   8
+     4.3.  Authentication  . . . . . . . . . . . . . . . . . . . . .   8
+     4.4.  Audio . . . . . . . . . . . . . . . . . . . . . . . . . .   8
+     4.5.  Network Operation Center (NOC)  . . . . . . . . . . . . .   8
+   5.  Administrative  . . . . . . . . . . . . . . . . . . . . . . .   8
+     5.1.  Centralized Resources . . . . . . . . . . . . . . . . . .   8
+     5.2.  Finances  . . . . . . . . . . . . . . . . . . . . . . . .   9
+       5.2.1.  Initial Investment  . . . . . . . . . . . . . . . . .   9
+       5.2.2.  Registration Fees . . . . . . . . . . . . . . . . . .   9
+       5.2.3.  Sponsorships  . . . . . . . . . . . . . . . . . . . .   9
+     5.3.  Legal . . . . . . . . . . . . . . . . . . . . . . . . . .   9
+   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   9
+     6.1.  Availability  . . . . . . . . . . . . . . . . . . . . . .   9
+     6.2.  Integrity . . . . . . . . . . . . . . . . . . . . . . . .  10
+   7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  10
+   8.  Next Steps  . . . . . . . . . . . . . . . . . . . . . . . . .  10
+   9.  Normative References  . . . . . . . . . . . . . . . . . . . .  11
+   Appendix A.  Acknowledgements . . . . . . . . . . . . . . . . . .  11
+   Appendix B.  Development Note . . . . . . . . . . . . . . . . . .  11
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  11
+
+
+
+York                       Expires May 4, 2017                  [Page 2]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
 
 1.  Introduction
 
@@ -105,14 +125,6 @@ Table of Contents
    discussion at the IETF 96 meeting in Berlin.  This document outlines
    many of the key issues and questions for discussion that emerged out
    of that Berlin meeting as well as mailing list conversations.
-
-
-
-
-York                       Expires May 4, 2017                  [Page 2]
-
-Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
-
 
    Discussions identified two types of potential meetings the IETF could
    have that would be completely virtual:
@@ -133,7 +145,12 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
    It is unclear if the IETF might ever choose to hold a planned virtual
    meeting, but this document is designed to facilitate the discussion
-   around what that might look like.
+   around what that might look like.  A desire is that some of this
+   development may help with improving the current experience for remote
+   attendees to today's physical IETF meetings.  It may also be the case
+   that some kind of "hybrid" meeting emerges with physical meetings
+   taking place in multiple locations with virtual participants joining
+   in remotely.
 
 1.1.  Benefits
 
@@ -145,8 +162,19 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
       where physical participants have more interaction capability than
       remote attendees).
 
+
+
+
+York                       Expires May 4, 2017                  [Page 3]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
+
    o  Ability to think differently about how the schedule of the meeting
       might look.
+
+   o  Potentially making participation accessible to more people by
+      changes in the registration fees.  (See Finance discussion below.)
 
    The sections below outline many of the questions and ideas, some of
    which may be benefits.
@@ -161,14 +189,6 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
    o  No ability to have "hallway conversations" and casual meetings
       with other participants.
-
-
-
-
-York                       Expires May 4, 2017                  [Page 3]
-
-Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
-
 
    The remainder of the document outlines many of the challenges and
    associated questions.
@@ -198,6 +218,14 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
    o  Is the meeting still structured over a week?
 
+
+
+
+York                       Expires May 4, 2017                  [Page 4]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
+
    o  Do the meetings still exist within certain hours?
 
    o  Do multiple meetings exist at the same time as they do now?
@@ -218,14 +246,6 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
    One suggestion was that each working group might choose its own
    timezone based on the best timezone for the main contributors and
-
-
-
-York                       Expires May 4, 2017                  [Page 4]
-
-Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
-
-
    leaders.  (Although this might then limit participation from other
    areas of the world.)
 
@@ -240,14 +260,47 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
    What does a plenary look like in a virtual meeting?  The same large
    session as today?
 
+2.5.  Tutorials
+
+   On the Sunday starting an IETF week we commonly have a series of
+   tutorials.  Are those still part of the program for a virtual
+   meeting?
+
+2.6.  Hackathon / Code Sprint
+
+   The Hackathon and Code Sprint have become popular activities before a
+   physical meeting.  Would they still exist for a virtual meeting?
+
+
+
+
+
+
+
+York                       Expires May 4, 2017                  [Page 5]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
+
+2.7.  Remote Hubs
+
+   In 2015 and 2016 there has been an effort to establish "remote hubs"
+   where groups of IETF members get together and participate remotely
+   from that physical location.  Would that continue as an option?
+
+   Could the virtual meeting perhaps involve connecting together a
+   series of remote hubs?  (And if so, does this then again create a
+   better experience for people who can go to a hub than for those who
+   cannot?)
+
 3.  User Journey / Experience
 
 3.1.  Participating in multiple sessions
 
    It is currently possible for remote participants to join into
-   multiple working group sessions at the same time.  Users simply run
-   Meetecho in multiple browser windows or multiple computers.  How does
-   this impact users' experience?
+   multiple working group sessions at the same time.  Users simply
+   connect using multiple browser windows, multiple chat rooms or
+   multiple computers.  How does this impact users' experience?
 
 3.2.  Side meetings
 
@@ -277,25 +330,69 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 
 
-York                       Expires May 4, 2017                  [Page 5]
+
+
+
+York                       Expires May 4, 2017                  [Page 6]
 
 Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 
-3.6.  Microphone lines
+3.6.  Voting / Hums
+
+   What is the best way to have votes or hums in a virtual meeting?
+   Most current audio conference systems would not make an actual audio
+   hum possible.  Votes in a chat could be possible but the lag time
+   associated with remote connections would need to be taken into
+   account.
+
+   Some kind of system where votes take place over a period of time may
+   need to be developed or used.  This, though, does then introduce a
+   delay into the meeting while there is a wait for the vote.
+
+3.7.  Microphone lines
 
    How do "mic lines" work in a completely virtual meeting?  Would this
    in fact be a benefit as all attendees would be in the same queue?
 
-3.7.  Mentoring
+3.8.  Disruptive Behavior
+
+   How do we deal with disruptive behavior in a virtual meeting?  It can
+   and does happen in meetings - and could potentially happen more
+   easily in a virtual evironment where people cannot be physically
+   stopped from going to a mic or could be removed from a room.
+
+   What is the process to exclude someone who is being disruptive?  Do
+   we need moderators to be able to step in and mute or disable
+   someone's connection?  Who makes the decision that someone's behavior
+   is disruptive?
+
+3.9.  Mentoring
 
    How would the "mentor" program work in a virtual meeting?  The same
    as with a physical meeting?
 
-3.8.  Inclusivity
+3.10.  Inclusivity
 
    How do you bring new people into sessions?  How do people learn about
    side meetings?  About hallway conversations?
+
+3.11.  T-Shirts
+
+   Many attendees value the t-shirts that are provided for each IETF.
+   How is it possible to provide a t-shirt to attendees of a virtual
+   meeting?  Does this just get skipped for the meeting?  Do they get
+   mailed out (incurring another expense)?
+
+
+
+
+
+
+York                       Expires May 4, 2017                  [Page 7]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
 
 4.  Technical Considerations
 
@@ -304,8 +401,8 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 4.1.  Infrastructure
 
    What is the infrastructure used to host a completely virtual meeting?
-   Are current systems such as Meetecho sufficient?  Would new
-   infrastructure need to be established?
+   Are current systems (ex.  Meetecho, Jabber chat rooms, audio streams)
+   sufficient?  Would new infrastructure need to be established?
 
    What kind of bandwidth would need to be available?
 
@@ -313,7 +410,25 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
    Do virtual attendees have video connections? voice? chat?
 
-4.3.  Network Operation Center (NOC)
+4.3.  Authentication
+
+   Today anyone can connect to the remote participation aspects of an
+   IETF meeting.  No authentication is required to join a jabber chat
+   room, listen to an audio stream or connect to a Meetecho session.
+   Would that need to change?  Would "registration" give you a login to
+   whatever system was used for the meeting?  Would you not be able to
+   participate without those login credentials?
+
+4.4.  Audio
+
+   How do we address issues of lag, stutter, echo and other artifacts of
+   current audio conferencing systems?
+
+   Is there a "minimum voice quality" level that is acceptable?  (George
+   Michaelson has suggested the telco QDU concept is something to
+   consider.)
+
+4.5.  Network Operation Center (NOC)
 
    Where does the NOC "exist" for a completly virtual meeting?  What is
    its role?
@@ -330,19 +445,40 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 
 
-
-
-
-York                       Expires May 4, 2017                  [Page 6]
+York                       Expires May 4, 2017                  [Page 8]
 
 Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 
 5.2.  Finances
 
-   o  What would the impact be on IETF finances?
+   The financial model of a completely virtual meeting needs to be
+   understood.  What would be the financial costs associated with a
+   meeting?
 
-   o  Would we charge the same amount to attendees as a regular meeting?
+5.2.1.  Initial Investment
+
+   Would there need to be an initial investment in infrastructure for
+   the first completely virtual meeting?  Would there then be lower
+   costs for the next virtual meeting?
+
+5.2.2.  Registration Fees
+
+   Would we charge the same amount to attendees as a regular meeting?
+
+5.2.3.  Sponsorships
+
+   How do sponsorships work with a completely virtual meeting?  Would
+   sponsorships be required at the same level as the physical meetings?
+
+   If a virtual meeting is sponsored, how is the sponsor given the
+   visibility that is currently given with a physical meeting?  For
+   instance, with the signage, T-shirts, plenary slides, etc.
+
+5.3.  Legal
+
+   How do we ensure all attendees, coming in at all times, see and agree
+   to the Note Well statement?
 
 6.  Security Considerations
 
@@ -354,6 +490,21 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
    How do we ensure that an attack such as a distributed denial of
    service (DDoS) doesn't take out the entire virtual meeting?  What
    about an attack against a particular region?
+
+   Similarly, how do we protect against disruption caused by groups on
+   the Internet who may simply want to disrupt the meeting for the fun
+   of it?  (See the section on "Authentication" earlier.)
+
+
+
+
+
+
+
+York                       Expires May 4, 2017                  [Page 9]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
 
 6.2.  Integrity
 
@@ -371,9 +522,47 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 7.  IANA Considerations
 
-   There are no IANA considerations associated with this document.
+   Are there any IANA considerations associated with a virtual meeting?
 
-8.  Normative References
+8.  Next Steps
+
+   With this initial document published, the intent now is to go back
+   and start to fill in the sections with possible ideas about how the
+   questions might be answered.
+
+   Suggestions were made to investigate what lessons can be learned from
+   work by other organizations on virtual meetings.  Initial suggestions
+   included:
+
+   o  The Internet Society has now hosted two (2015 and 2016) global
+      "InterCommunity" events bringing together ISOC members from around
+      the world.  The 2016 event, in particular, was designed to be a
+      virtual event.
+
+   o  The conference industry has been exploring virtual and/or "hybrid"
+      meetings.  There may be value here.
+
+   o  Universities and specifically Internet2 may have some experience.
+
+   o  George Michaelson stated: "Van Jacobsen did a lot of work on
+      meeting behaviour online in the MBONE days, working on the
+      whiteboard and vat.  He has made observations about weighted-sum
+      voting, speaking controls, inheritence of the state of the
+      meeting."
+
+
+
+
+
+
+
+
+York                       Expires May 4, 2017                 [Page 10]
+
+Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
+
+
+9.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -385,20 +574,15 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
               DOI 10.17487/RFC6919, April 2013,
               <http://www.rfc-editor.org/info/rfc6919>.
 
-
-
-
-
-York                       Expires May 4, 2017                  [Page 7]
-
-Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
-
-
 Appendix A.  Acknowledgements
 
-   The author thanks all of the participants of the manycouches design
-   team as well as the IESG members who participated in the discussion
-   on 20 July 2016 at IETF 96 in Berlin.
+   This document reflects the input of many people who participated in
+   both the manycouches design team as well as the discussion with the
+   IESG on 20 July 2016 at IETF 96 in Berlin.  Subsequent discussions on
+   the manycouches mailing list also informed this document.  The author
+   would specifically like to thank: Benoit Claise and Greg Wood for
+   their ideas about how to structure this document; and George
+   Michaelson for additional thoughts and ideas.
 
 Appendix B.  Development Note
 
@@ -429,20 +613,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-York                       Expires May 4, 2017                  [Page 8]
+York                       Expires May 4, 2017                 [Page 11]
