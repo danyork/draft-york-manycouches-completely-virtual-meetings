@@ -1,7 +1,7 @@
 % Title = "Thoughts on Completely Virtual IETF Meetings"
 % abbrev = "Thoughts on Completely Virtual Meetings"
 % category = "info"
-% docName = "draft-manycouches-completely-virtual-meetings-01"
+% docName = "draft-manycouches-completely-virtual-meetings-03"
 % ipr= "trust200902"
 % workgroup = "manycouches"
 %
@@ -24,7 +24,8 @@ This document captures initial thoughts about having IETF meetings that
 are completely virtual. It explores the issues involved with both a
 "planned" virtual meeting and an "emergency" virtual meeting. The intent
 is to evolve this document to provide answers to the questions posed
-throughout the text.
+throughout the text. This is currently a thought experiment. There are
+no current plans to hold a completely virtual IETF meeting.
 
 {mainmatter}
 
@@ -35,7 +36,7 @@ issues? What would be the advantages? How could it work?
 
 The "manycouches" design team was convened to explore these issues and
 understand what might be involved in holding a completely virtual meeting.
-On 20 July 2017, members met with the IESG for a joint discussion at the 
+On 20 July 2016, members met with the IESG for a joint discussion at the 
 IETF 96 meeting in Berlin. This document outlines many of the key issues and questions for discussion that emerged out of that Berlin meeting as well as
 mailing list conversations.
 
@@ -56,32 +57,30 @@ physical IETF meetings. It may also be the case that some kind of "hybrid"
 meeting emerges with physical meetings taking place in multiple locations
 with virtual participants joining in remotely.
 
-## Benefits
+It is also worth noting that in discussions to date the sense has been 
+that even if we held a completely virtual meeting, it would only happen
+once out of several meetings. There would still be multiple physical IETF 
+meetings during the year.
 
-Proponents of planned virtual meetings point to benefits such as:
+## Why Do IETF Meetings Take Place?
 
-- No requirement to travel, removing an economic issue for many.
-- All participants are on an equal footing (versus current situation where physical participants have more interaction capability than remote attendees).
-- Ability to think differently about how the schedule of the meeting might look.
-- Potentially making participation accessible to more people by changes in the registration fees. (See Finance discussion below.)
+[It may be good to insert some text here about WHY we have IETF meetings
+and what the overall goals are. Both as a reminder of the point of the
+meetings and potentially to frame thinking about how we might move toward
+those goals by trying doing things a bit differently.]
 
-The sections below outline many of the questions and ideas, some of which
-may be benefits.
+## Why Hold a Completely Virtual IETF Meeting?
 
-## Challenges
-
-There are many challenges with hosting a completely virtual meeting. 
-Some key issues are:
-
-- Inability to have the "high bandwidth" conversations enabled by face-to-face meetings.
-- No ability to have "hallway conversations" and casual meetings with other participants.
-
-The remainder of the document outlines many of the challenges and associated
-questions.
-
-Several participants voiced the opinion that replacing a physical meeting 
-would be pretty much impossible.
-
+[At some point in the maturity of this document it would be valuable to 
+discuss the benefits and challenges of a completely virtual meeting. 
+Before that summary can be developed, though, further investigation and
+development needs to happen. At a very high level, one idea is that a 
+completely virtual meeting might make the meeting more accessible to 
+more people in terms of schedules, lack of travel and reduced costs. 
+However, all of that thinking need considerably more exploration. 
+Several participants in discussions have voiced the opinion that 
+replacing physical IETF meetings will be close to impossible. This
+document is being developed to explore all of these issues.]
 
 ##  Conventions and Terminology
 
@@ -124,6 +123,9 @@ One suggestion was that each working group might choose its own timezone
 based on the best timezone for the main contributors and leaders. (Although
 this might then limit participation from other areas of the world.)
 
+This timezone issue was identified by multiple participants as the hardest
+aspect of planning a virtual meeting.
+
 ## Deadlines
 
 What do deadlines look like for a completely virtual meeting? Are the
@@ -134,6 +136,17 @@ deadlines for agendas and drafts kept as they are for a regular meeting?
 What does a plenary look like in a virtual meeting? The same large session
 as today?
 
+## Breaks
+
+There are breaks planned throughout the days of a physical IETF meeting
+to enable people to move between sessions and to have refreshments and
+restroom breaks. Similarly there are longer breaks for lunch.
+
+How are breaks structured in a completely virtual meeting? 
+
+- Can they be shorter?
+- Do you need a longer "lunch break"? Or does that make no sense?
+
 ## Tutorials
 
 On the Sunday starting an IETF week we commonly have a series of tutorials.
@@ -143,6 +156,36 @@ Are those still part of the program for a virtual meeting?
 
 The Hackathon and Code Sprint have become popular activities before a 
 physical meeting. Would they still exist for a virtual meeting?
+
+## Other Physical Meeting Elements
+
+In a typical IETF physical meeting, there are other meetings and activities
+that occur alongside the meetings of Working Groups and BOFs. These include:
+
+- Newcomers Meet and Greet
+- Welcome Reception
+- Bits-N-Bites
+- Thursday Lunch Speaker Series
+- Social Event
+
+Do any of these additional sessions still make sense in a virtual meeting?
+
+The Thursday Lunch Speaker Series (by the Host organization)  could continue
+as webinar-style presentations. But the other elements involve face-to-face
+interaction that would be difficult in a virtual setting. 
+
+## Sessions by non-IETF groups
+
+Other organizations sometimes hold meetings during the time
+of the IETF physical meeting and often use the same venue. For example, 
+the Internet Society usually offers an "ISOC@IETF Briefing Panel" during 
+the Tuesday lunch break. At some IETF meetings groups have shown films 
+or scheduled other meetings. These are not IETF meetings, but make 
+use of the opportunity of having the IETF attendees available.
+
+Do these sessions still make sense? Would we offer the IETF virtual
+meeting infrastructure to groups to use when it is not being used for
+IETF meetings?
 
 ## Remote Hubs
 
@@ -234,10 +277,19 @@ How do you bring new people into sessions? How do people learn about side meetin
 
 ## T-Shirts
 
-Many attendees value the t-shirts that are provided for each IETF. How is
-it possible to provide a t-shirt to attendees of a virtual meeting? Does
-this just get skipped for the meeting? Do they get mailed out (incurring
-another expense)?
+Many attendees value the T-shirts that are usually provided for each IETF.
+Without a physical meeting it could be challenging and costly to distribute
+T-shirts to attendees.
+
+T-shirts are currently funded by the Host of the physical IETF meeting. If
+there is no Host, or if the Host chooses not to fund a T-shirt, there may 
+be no T-shirt. 
+
+With a virtual meeting it may be that if there is a Host (see "Sponsorships"
+below), the Host would have the same option as the physical meeting - to 
+provide a T-shirt or not. The Host could then decide how they would 
+distribute the T-shirt.
+
 
 #  Technical Considerations
 
@@ -320,6 +372,16 @@ If a virtual meeting is sponsored, how is the sponsor given the visibility
 that is currently given with a physical meeting? For instance, with the
 signage, T-shirts, plenary slides, etc.
 
+In particular, is there a sponsor designated as the "Host" of the IETF
+meeting? The Host for physical meetings receives benefits including:
+
+- Prominent mention in materials and promotion of the IETF meeting.
+- The "host presentation" speaking slot during the plenary.
+- The "Thursday Lunch Speaker Series" time for whatever they wish to present.
+- Mention on the T-shirt for the event (if the Host chooses to fund the creation of a T-shirt).
+
+Would we have a "Host" for a virtual meeting?
+
 ### Long-term impact
 
 If we were successful in holding a completely virtual meeting, would 
@@ -395,7 +457,7 @@ How would it be possible to do a "trial run" of a virtual meeting?
 
 This document reflects the input of many people who participated in both
 the manycouches design team as well as the discussion with the IESG
-on 20 July 2016 at IETF 96 in Berlin. Subsequent discussions on the
+on 20 July 2016 at IETF 96 in Berlin. Other discussions on the
 manycouches mailing list also informed this document. The author would
 specifically like to thank Lou Berger, Benoit Claise, Stephen Farrell, 
 George Michaelson and Greg Wood for their input.
@@ -403,5 +465,7 @@ George Michaelson and Greg Wood for their input.
 # Development Note
 
 This document is being developed using a repository on Github at:
-https://github.com/danyork/draft-york-manycouches-completely-virtual-meetings
+
+- https://github.com/danyork/draft-york-manycouches-completely-virtual-meetings
+
 Comments, issues and pull requests are welcome.
