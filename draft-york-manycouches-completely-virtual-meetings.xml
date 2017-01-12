@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rfc SYSTEM 'rfc2629.dtd' []>
-<rfc ipr="trust200902" category="info" docName="draft-manycouches-completely-virtual-meetings-03">
+<rfc ipr="trust200902" category="info" docName="draft-manycouches-completely-virtual-meetings-04">
 <?rfc toc="yes"?>
 <?rfc symrefs="yes"?>
 <?rfc sortrefs="yes"?>
@@ -27,7 +27,7 @@
 <uri></uri>
 </address>
 </author>
-<date year="2016" month="October" day="31"/>
+<date year="2017" month="January" day="11"/>
 
 <area>Internet</area>
 <workgroup>manycouches</workgroup>
@@ -55,8 +55,8 @@ issues? What would be the advantages? How could it work?
 <t>The &quot;manycouches&quot; design team was convened to explore these issues and
 understand what might be involved in holding a completely virtual meeting.
 On 20 July 2016, members met with the IESG for a joint discussion at the
-IETF 96 meeting in Berlin. This document outlines many of the key issues and questions for discussion that emerged out of that Berlin meeting as well as
-mailing list conversations.
+IETF 96 meeting in Berlin. The team met again at IETF 97 in Seoul.
+This document outlines many of the key issues and questions for discussion that emerged out of those meetings as well as mailing list conversations.
 </t>
 <t>Discussions identified two types of potential meetings the IETF could have
 that would be completely virtual:
@@ -251,6 +251,19 @@ How does he or she experience the event?
 setting?
 </t>
 
+<section anchor="planning-time-to-participate" title="Planning time to participate">
+<t>It was noted that remote attendees should think about how they block off
+time needed to participate in the meetings. This may be challenging depending
+upon timezones and other activities.
+</t>
+<t>An open question is whether attendees might be able to get time from their
+employer to participate in the virtual meeting.  If you fly somewhere to
+participate, it is clear that you are &quot;away&quot; and participating in the meeting.
+If you are still at your home or office, it is harder for others to consider you
+&quot;away&quot;.
+</t>
+</section>
+
 <section anchor="registration--signup" title="Registration / sign-up">
 <t>What is the registration experience like? How do they initially
 &quot;sign in&quot; as an attendee?
@@ -292,6 +305,20 @@ How does this impact users' experience?
 <section anchor="serendipity--discovering-other-users" title="Serendipity - discovering other users">
 <t>Part of a physical meeting involves discovering other people with common
 interests or backgrounds. How do you help people find others?
+</t>
+</section>
+
+<section anchor="building-relationships" title="Building relationships">
+<t>So much of the relationship-building that helps get work done happens through
+the informal side meetings, going out to dinner, going off in groups. How can
+any of this be replicated remotely?
+</t>
+</section>
+
+<section anchor="calendars-for-users" title="Calendars for users">
+<t>Could there be a way for users to be able to share when they are going to be in different sessions? Or when they would be available to &quot;hang out&quot; virtually?
+</t>
+<t>What level of &quot;presence&quot; could be made visible for virtual attendees?
 </t>
 </section>
 
@@ -372,6 +399,24 @@ hosting the system?
 <t>Do virtual attendees have video connections? voice? chat? What kind of
 bandwidth would need to be available on the client end?
 </t>
+<t>Recommendations should be developed for client-end infrastructure.
+(To fully participate you need X, Y and Z...)
+</t>
+</section>
+
+<section anchor="backup-connectivity" title="Backup connectivity">
+<t>Virtual attendees need to have some kind of &quot;backup connection&quot; in case their
+main Internet connection goes out. For instance, a PSTN connection for calling
+into a session.  (This implies that the system hosting the virtual conference
+can accept connections through different mechanisms.)
+</t>
+</section>
+
+<section anchor="persistent-chat" title="Persistent chat">
+<t>Whatever system is used should have some kind of &quot;persistent chat&quot; so that
+when people connect into a given &quot;room&quot; they can scroll back and read through
+the history.  Potentially that history might also include audio or video links.
+</t>
 </section>
 
 <section anchor="authentication" title="Authentication">
@@ -400,6 +445,8 @@ Michaelson has suggested the telco QDU concept is something to consider.)
 </section>
 
 <section anchor="administrative" title="Administrative">
+<t>The long-term impact of an idea such as this needs a great deal of further thought.
+</t>
 
 <section anchor="centralized-resources" title="Centralized Resources">
 <t>What is the impact of a virtual meeting on centralized resources such as
@@ -554,7 +601,8 @@ included:
 <section anchor="acknowledgements" title="Acknowledgements">
 <t>This document reflects the input of many people who participated in both
 the manycouches design team as well as the discussion with the IESG
-on 20 July 2016 at IETF 96 in Berlin. Other discussions on the
+on 20 July 2016 at IETF 96 in Berlin. Another discussion was help among
+design team members on 17 Nov 2016 at IETF 97 in Seoul. Other discussions on the
 manycouches mailing list also informed this document. The author would
 specifically like to thank Lou Berger, Benoit Claise, Stephen Farrell,
 George Michaelson and Greg Wood for their input.

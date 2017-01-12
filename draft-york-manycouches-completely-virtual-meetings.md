@@ -1,11 +1,11 @@
 % Title = "Thoughts on Completely Virtual IETF Meetings"
 % abbrev = "Thoughts on Completely Virtual Meetings"
 % category = "info"
-% docName = "draft-manycouches-completely-virtual-meetings-03"
+% docName = "draft-manycouches-completely-virtual-meetings-04"
 % ipr= "trust200902"
 % workgroup = "manycouches"
 %
-% date = 2016-10-31T12:20:00Z
+% date = 2017-01-11T12:20:00Z
 %
 % [[author]]
 % initials="D."
@@ -37,8 +37,8 @@ issues? What would be the advantages? How could it work?
 The "manycouches" design team was convened to explore these issues and
 understand what might be involved in holding a completely virtual meeting.
 On 20 July 2016, members met with the IESG for a joint discussion at the 
-IETF 96 meeting in Berlin. This document outlines many of the key issues and questions for discussion that emerged out of that Berlin meeting as well as
-mailing list conversations.
+IETF 96 meeting in Berlin. The team met again at IETF 97 in Seoul.
+This document outlines many of the key issues and questions for discussion that emerged out of those meetings as well as mailing list conversations.
 
 Discussions identified two types of potential meetings the IETF could have 
 that would be completely virtual:
@@ -205,6 +205,18 @@ How does he or she experience the event?
 How could attendees be most effective in getting work done in a virtual
 setting?
 
+## Planning time to participate
+
+It was noted that remote attendees should think about how they block off
+time needed to participate in the meetings. This may be challenging depending 
+upon timezones and other activities.
+
+An open question is whether attendees might be able to get time from their
+employer to participate in the virtual meeting.  If you fly somewhere to 
+participate, it is clear that you are "away" and participating in the meeting.
+If you are still at your home or office, it is harder for others to consider you 
+"away".
+
 ## Registration / sign-up
 
 What is the registration experience like? How do they initially 
@@ -239,6 +251,18 @@ How does this impact users' experience?
 
 Part of a physical meeting involves discovering other people with common
 interests or backgrounds. How do you help people find others?
+
+## Building relationships
+
+So much of the relationship-building that helps get work done happens through 
+the informal side meetings, going out to dinner, going off in groups. How can 
+any of this be replicated remotely?
+
+## Calendars for users
+
+Could there be a way for users to be able to share when they are going to be in different sessions? Or when they would be available to "hang out" virtually?
+
+What level of "presence" could be made visible for virtual attendees?
 
 ## Voting / Hums
 
@@ -311,6 +335,22 @@ How would we handle connecting large numbers of people at the same time?
 Do virtual attendees have video connections? voice? chat? What kind of
 bandwidth would need to be available on the client end?
 
+Recommendations should be developed for client-end infrastructure.
+(To fully participate you need X, Y and Z...)
+
+## Backup connectivity
+
+Virtual attendees need to have some kind of "backup connection" in case their
+main Internet connection goes out. For instance, a PSTN connection for calling
+into a session.  (This implies that the system hosting the virtual conference 
+can accept connections through different mechanisms.)
+
+## Persistent chat
+
+Whatever system is used should have some kind of "persistent chat" so that 
+when people connect into a given "room" they can scroll back and read through
+the history.  Potentially that history might also include audio or video links.
+
 ## Authentication
 
 Today anyone can connect to the remote participation aspects of an IETF
@@ -333,6 +373,8 @@ Michaelson has suggested the telco QDU concept is something to consider.)
 Where does the NOC "exist" for a completly virtual meeting? What is its role?
 
 # Administrative
+
+The long-term impact of an idea such as this needs a great deal of further thought.
 
 ## Centralized Resources
 
@@ -457,7 +499,8 @@ How would it be possible to do a "trial run" of a virtual meeting?
 
 This document reflects the input of many people who participated in both
 the manycouches design team as well as the discussion with the IESG
-on 20 July 2016 at IETF 96 in Berlin. Other discussions on the
+on 20 July 2016 at IETF 96 in Berlin. Another discussion was help among
+design team members on 17 Nov 2016 at IETF 97 in Seoul. Other discussions on the
 manycouches mailing list also informed this document. The author would
 specifically like to thank Lou Berger, Benoit Claise, Stephen Farrell, 
 George Michaelson and Greg Wood for their input.
