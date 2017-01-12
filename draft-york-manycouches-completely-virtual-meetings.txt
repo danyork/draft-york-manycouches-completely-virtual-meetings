@@ -640,7 +640,7 @@ Internet-Draft   Thoughts on Completely Virtual Meetings    October 2016
 
 6.2.  Integrity
 
-   How do you know that the person who is logged into whatver system is
+   How do you know that the person who is logged into whatever system is
    used is in fact who they say they are?  In a physical meeting:
 
    o  We can see the person and physically identify them.
